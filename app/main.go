@@ -27,5 +27,5 @@ func main() {
 	hushhubUsecase := _usecase.AvataroUsecase()
 	_handler.NewAvataroHandler(e, hushhubUsecase)
 
-	e.Logger.Fatal(e.Start(":1111"))
+	e.Logger.Fatal(e.Start(":8080"))
 }
